@@ -16,6 +16,9 @@ try:
 
         wait = WebDriverWait(driver, 10)
 
+        '''Here I choose English as the language of the content display,
+            because by default it display isn't completely correct'''
+
         wait.until(EC.element_to_be_clickable((By.CLASS_NAME, 'sc-FRqyn'))).click()
         wait.until(EC.element_to_be_clickable((By.CLASS_NAME, 'sc-eKYSwk'))).click()
         wait.until(EC.visibility_of_element_located((By.XPATH,

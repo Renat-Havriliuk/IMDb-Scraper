@@ -1,0 +1,2 @@
+# IMDb Scraper
+This is a script that I used to complete a client's task. I employed the `lxml` library and `Selenium WebDriver` because the site turned out to be dynamic and didn't return the necessary information without executing JavaScript. I am sharing it here as a small demonstration of my parsing skills.
